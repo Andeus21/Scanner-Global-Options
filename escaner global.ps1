@@ -14,7 +14,7 @@ function Mostrar-Menu {
 ██║  ██║██║ ╚████║██████╔╝███████╗╚██████╔╝███████║
 ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝ ╚═════╝ ╚══════╝                                 
                       
-  ▀▄▀▄▀▄▀▄▀▄▀▄  ☣︎ SS TOOL SUITE ☣︎  ▀▄▀▄▀▄▀▄▀▄▀▄▀                   
+  ▀▄▀▄▀▄▀▄▀▄▀▄  ☣︎ INFECTION☣︎  ▀▄▀▄▀▄▀▄▀▄▀▄▀                   
 "@
     Write-Host $Banner -ForegroundColor Red
     Write-Host "_____________________________________________________" -ForegroundColor DarkRed
@@ -37,7 +37,7 @@ while ($true) {
             Clear-Host
             Write-Host "[*] Conectando con la base de datos... Descargando Escáner Global...`n" -ForegroundColor DarkGray
             # REEMPLAZA EL LINK DE ABAJO CON TU SCRIPT GLOBAL
-            Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/TuUsuario/TuRepo/main/Modulo1_Global.ps1')
+            Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/Andeus21/Analizer-Desktop/refs/heads/main/ScannerDesktop.ps1')
             Write-Host "`n"
             Pause
         }
